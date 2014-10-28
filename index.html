@@ -2,17 +2,30 @@
 <html>
 <head>
 	<title>MEC01-5 Timeline</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<div id="timeline"></div>
+<div id="container">
 
-<span id="year-tooltip"></span>
+	<input type="text" id="search" placeholder="Zoek op hype of jaartal..."/>
 
-<p>Dit is een paragraph</p>
+	<div id="item">
+		<h2 class="name">Item Name</h2>
+		<p class="year">Year</p>
+		<p class="description">Description</p>
+	</div>
+
+	<div id="timeline">
+		<div id="timeline-cursor"></div>
+		
+		<span id="year-tooltip"></span>
+	</div>
+
+</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="script.css"></script>
+<script src="script.js"></script>
 </body>
 </html>
