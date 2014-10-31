@@ -7,46 +7,10 @@
 
 var items = [
 	{
-		'id': 1,
-		'name': 'Smartphone',
-		'description': 'Simon',
-		'year': 1994,
-		'thumb': '',
-		'image': 'img/smartphone.jpg',
-		'tags': ['smartphone', 'simon']
-	},
-	{
-		'id': 2,
-		'name': 'Tablet',
-		'description': '',
-		'year': 2002,
-		'thumb': '',
-		'image': 'img/tablet.jpg',
-		'tags': ['microsoft', 'tablet', 'bill', 'gates']
-	},
-	{
-		'id': 3,
-		'name': 'Smartwatch',
-		'description': '',
-		'year': 2000,
-		'thumb': '',
-		'image': '',
-		'tags': ['apple', 'watch', 'smartwatch']
-	},
-	{
-		'id': 4,
-		'name': 'Laserdisc',
-		'description': '',
-		'year': 2010,
-		'thumb': '',
-		'image': '',
-		'tags': ['laserdisc', 'cd']
-	},
-	{
 		'id': 5,
 		'name': '3D film',
-		'description': '',
-		'year': 2005,
+		'description': 'In 1922 werd "The Power of Love" als eerste film ooit getoont in 3d. Dit gebeurde op de premiere in het Ambassador Hotel in Los Angelos.',
+		'year': 1922,
 		'thumb': '',
 		'image': '',
 		'tags': ['film', '3d']
@@ -55,10 +19,64 @@ var items = [
 		'id': 5,
 		'name': '3D televisie',
 		'description': '',
-		'year': 2005,
+		'year': 1927,
 		'thumb': '',
 		'image': '',
 		'tags': ['televisie', '3d']
+	},
+	{
+		'id': 5,
+		'name': 'Ebooks',
+		'description': 'In 1949 patenteerde de spanjaard Ángela Ruiz Robles het eerste electronische boek.',
+		'year': 1949,
+		'thumb': '',
+		'image': '',
+		'tags': ['ebook', 'reader', 'e-reader', 'e-book']
+	},
+		{
+		'id': 4,
+		'name': 'Laserdisc',
+		'description': '',
+		'year': 1972,
+		'thumb': '',
+		'image': '',
+		'tags': ['laserdisc', 'cd']
+	},
+	{
+		'id': 3,
+		'name': 'Smartwatch',
+		'description': '',
+		'year': 1972,
+		'thumb': '',
+		'image': '',
+		'tags': ['apple', 'watch', 'smartwatch']
+	},
+	// {
+	// 	'id': 5,
+	// 	'name': 'PDA',
+	// 	'description': '',
+	// 	'year': 2001,
+	// 	'thumb': '',
+	// 	'image': '',
+	// 	'tags': ['pda']
+	// },
+	{
+		'id': 5,
+		'name': 'Online Banking',
+		'description': '',
+		'year': 1981,
+		'thumb': '',
+		'image': '',
+		'tags': ['online', 'bank']
+	},
+	{
+		'id': 5,
+		'name': 'Draagbare Muziekspeler',
+		'description': '',
+		'year': 1981,
+		'thumb': '',
+		'image': '',
+		'tags': ['draagbare', 'muziek', 'portable', 'mp3', 'speler', 'music', 'walkman']
 	},
 	{
 		'id': 5,
@@ -71,98 +89,80 @@ var items = [
 	},
 	{
 		'id': 5,
-		'name': 'Virtual Reality',
-		'description': '',
-		'year': 1980,
-		'thumb': '',
-		'image': '',
-		'tags': ['virtual', 'reality', 'vr', 'ocolus', 'rift']
-	},
-	{
-		'id': 5,
-		'name': 'Ebooks',
-		'description': '',
-		'year': 1990,
-		'thumb': '',
-		'image': '',
-		'tags': ['ebook', 'reader', 'e-reader', 'e-book']
-	},
-	{
-		'id': 5,
-		'name': 'Online Banking',
-		'description': '',
-		'year': 2008,
-		'thumb': '',
-		'image': '',
-		'tags': ['online', 'bank']
-	},
-	{
-		'id': 5,
-		'name': 'PDA',
-		'description': '',
-		'year': 2001,
-		'thumb': '',
-		'image': '',
-		'tags': ['pda']
-	},
-	{
-		'id': 5,
 		'name': 'WAP',
 		'description': '',
-		'year': 2000,
+		'year': 1989,
 		'thumb': '',
 		'image': '',
 		'tags': ['wap', 'wireless', 'application', 'protocol']
 	},
 	{
 		'id': 5,
-		'name': 'Spraakherkenning',
-		'description': '',
-		'year': 1997,
+		'name': 'Virtual Reality',
+		'description': 'In 1991 werd de Sega VR aangekondigd door Sega. Andere zeer primitieve modellen van virtual reality brillen kwamen nog voor deze, maar van hoe virtual reality brillen in zijn houdige vorm zijn, was de Sega VR de eerste.',
+		'year': 1991,
 		'thumb': '',
 		'image': '',
-		'tags': ['spraak', 'herkenning', 'spraakherkenning']
+		'tags': ['virtual', 'reality', 'vr', 'ocolus', 'rift']
+	},
+	{
+		'id': 5,
+		'name': 'Atari Jaguar',
+		'description': 'De Jaguar van Atari kwam in 1993 uit en was in die tijd (een van) de beste spelcomputers qua prijs/kwaliteit verhouding.',
+		'year': 1993,
+		'thumb': '',
+		'image': '',
+		'tags': ['jaguar', 'atari', 'game', 'gaming', 'console']
+	},
+	{
+		'id': 5,
+		'name': 'Netscape',
+		'description': 'Netscape is opgericht in 1994 onder de naam "Mosaic Communications Corporation" en kwam met één van de eerste webbrowsers.',
+		'year': 1994,
+		'thumb': '',
+		'image': '',
+		'tags': ['netscape', 'browser']
+	},
+	{
+		'id': 1,
+		'name': 'Smartphone',
+		'description': 'De Simon Personal Communicator is volgens velen de eerste smartphone. IBM bracht hem uit in 1992.',
+		'year': 1994,
+		'thumb': '',
+		'image': 'img/smartphone.jpg',
+		'tags': ['smartphone', 'simon']
 	},
 	{
 		'id': 5,
 		'name': 'Sega',
-		'description': 'Sega Dreamcast',
-		'year': 1993,
+		'description': 'De Sega Dreamcast kwam uit in Japan in 1998. Het bracht een nieuwe techniek met zich mee waardoor spellen als Quake beter draaiden op de Dreamcast dan op de concurrenten.',
+		'year': 1998,
 		'thumb': '',
 		'image': '',
 		'tags': ['sega', 'dreamcast', 'game', 'gaming', 'console']
 	},
 	{
-		'id': 5,
-		'name': 'Netscape',
-		'description': '',
-		'year': 1980,
+		'id': 2,
+		'name': 'Tablet',
+		'description': 'In 1991 bracht AT&T hun eerste EO Personal Communicator uit, wat beschouwd word als de eerste commerciële tablet.',
+		'year': 2002,
 		'thumb': '',
-		'image': '',
-		'tags': ['netscape']
+		'image': 'img/tablet.jpg',
+		'tags': ['microsoft', 'tablet', 'bill', 'gates']
 	},
 	{
 		'id': 5,
-		'name': 'Draagbare Muziekspeler',
-		'description': '',
+		'name': 'Spraakherkenning',
+		'description': 'De eerste vorm van spraakherkenning werd pas gerealiseerd in 2004. in Zweden werd de JAS-39 straaljager uitgerust met spraakherkenning om elementen  er van te kunnen besturen.',
 		'year': 2004,
 		'thumb': '',
 		'image': '',
-		'tags': ['draagbare', 'muziek', 'portable', 'mp3', 'speler', 'music']
+		'tags': ['spraak', 'herkenning', 'spraakherkenning']
 	},
-	{
-		'id': 5,
-		'name': 'Atari Jaguar',
-		'description': '',
-		'year': 1995,
-		'thumb': '',
-		'image': '',
-		'tags': ['jaguar', 'atari', 'game', 'gaming', 'console']
-	}
 ];
 
 
-var low = 1990,
+var low = 1920,
 	high = 2014,
 	width = $('#timeline').width();
 
@@ -190,16 +190,48 @@ function setItems(items) {
 		var denominator = high - low;
 		var numerator = items[i].year - low;
 		var pixels = (numerator / denominator) * width;
+		var top;
+
+
+		console.log(i % 1 === 0);
+		console.log(i);
+
+		if(i % 5 === 0) { top = 160; } else
+		if(i % 4 === 0) { top = 120; } else
+		if(i % 3 === 0) { top = 80; } else
+		if(i % 2 === 0) { top = 40; } else
+		if(i % 1 === 0) { top = 0; } 
+		// if(i == 0) { top = 0; }
+
+		console.log(top);
 
 		$('<span>', {
 		    id: i,
 		    class: 'item',
 		    text: items[i].name,
+		    // text: i,
 			css: {'position': 'absolute',
-			'left': pixels + 'px'}
+			'left': pixels + 'px',
+			'top': top + 'px'}
 		}).appendTo('#timeline');
 
+
+
+		// Create a line for the item
+		$('<div>', {
+			id: 'line-' + i,
+			class: 'timeline-line',
+			css: {
+				'left': pixels + 'px'
+			}
+		}).appendTo('#timeline');
+
+
+
 		$('#' + i).data('year', items[i].year);
+
+		$('#min-year-tooltip').html('1922');
+		$('#max-year-tooltip').html('2014');
 	}
 }
 
@@ -319,16 +351,57 @@ $(document).on('mouseleave', '.item', function(e) {
  * When the user starts typing in the search box
  */
 var timer;
-$(document).on('keyup', '#search', function() {
+$(document).on('keyup', '#search', function(e) {
 	var keyword = $(this).val();
 
+	// Enter was pressed
+	if(e.which == 13) {
+		clearTimeout(timer);
+
+		search(keyword);
+	}
+
 	if(keyword.trim() != '') {
-		clearTimeout(timer); 
+		clearTimeout(timer);
 	
 	    timer = setTimeout(function() {
 			search(keyword);
 	    }, 1000);
 	}
+});
+
+$(document).on('keyup', '#focus', function(e) {
+	this.select();
+});
+
+$(document).on('mouseover', '.item', function(e) {
+	var id = $(this).attr('id');
+
+	$('.item').css({
+		'z-index': 100,
+		'box-shadow': '1px 1px 2px #000000'
+	});
+	$(this).css({
+		'z-index': 1000,
+		'box-shadow': '0px 0px 6px #2C97D1'
+	});
+
+	$('#line-' + id).css({
+		'box-shadow': '0px 0px 6px #2C97D1'
+	});
+});
+
+$(document).on('mouseout', '.item', function(e) {
+	var id = $(this).attr('id');
+
+	$('.item').css({
+		'z-index': 100,
+		'box-shadow': '1px 1px 2px #000000'
+	});
+
+	$('#line-' + id).css({
+		'box-shadow': 'none'
+	});
 });
 
 })();
